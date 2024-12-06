@@ -12,7 +12,7 @@ const EventEmitter = require('events');
 dotenv.config();
 
 // Configuration
-const CONCURRENT_BROWSERS = 5;
+const CONCURRENT_BROWSERS = 6;
 const TABS_PER_BROWSER = 1;
 
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
@@ -24,7 +24,8 @@ const executablePath = osPlatform.startsWith('win')
 
 const BROWSER_CLEANUP_DELAY = 400; // ms to wait after browser closes
 const userDataDirs = new Set(); // Track which user data dirs are in use
-const MAX_USER_DATA_DIRS = 10;  // Pool of 10 possible directories
+const MAX_USER_DATA_DIRS = 15;  // Pool of 10 possible directories
+const MAX_ATTEMPTS_BEFORE_RESTART = 200; // After this many attempts, do a full restart
 
 // Setup puppeteer with stealth plugin
 puppeteerExtra.use(StealthPlugin());
@@ -94,8 +95,8 @@ async function launchBrowser(userDataDir) {
 
     try {
         const browser = await puppeteerExtra.launch({
-            headless: false,
-            executablePath: executablePath,
+            headless: true,
+           // executablePath: executablePath,
             userDataDir: userDataDir,
             protocolTimeout: 30000,
             args: [
@@ -141,47 +142,7 @@ async function launchBrowser(userDataDir) {
                 await page.setDefaultTimeout(30000);
                 await page.setDefaultNavigationTimeout(30000);
 
-                // Enable request interception
-                await page.setRequestInterception(true);
-
-                // Handle requests
-                page.on('request', async (request) => {
-                    const resourceType = request.resourceType();
-                    const url = request.url();
-                    const isGoogleDomain = url.includes('google.com');
-
-                    // Block unnecessary resources
-                    if (
-                        // Block stylesheets except from Google
-                        (resourceType === 'stylesheet' && !isGoogleDomain) ||
-                        // Block images except from Google
-                        (resourceType === 'image' && !isGoogleDomain) ||
-                        // Block these resource types completely
-                        resourceType === 'font' ||
-                        resourceType === 'media' ||
-                        resourceType === 'other'
-                    ) {
-                        try {
-                            await request.abort();
-                        } catch (error) {
-                            // Handle already handled requests
-                            if (!error.message.includes('Request is already handled!')) {
-                                console.error(clc.red('[Network] Error aborting request:'), error.message);
-                            }
-                        }
-                        return;
-                    }
-
-                    // Continue all other requests
-                    try {
-                        await request.continue();
-                    } catch (error) {
-                        // Handle already handled requests
-                        if (!error.message.includes('Request is already handled!')) {
-                            console.error(clc.red('[Network] Error continuing request:'), error.message);
-                        }
-                    }
-                });
+      
 
              
             }
@@ -316,6 +277,14 @@ async function findCaptchaFrame(page, timeout = 10000) {
             console.log(clc.red('[Captcha] Checkbox found but not clickable'));
             return null;
         }
+
+        // Ensure checkbox is in viewport
+        await frame.evaluate(() => {
+            const checkbox = document.querySelector('.recaptcha-checkbox-border');
+            if (checkbox) {
+                checkbox.scrollIntoView({ block: 'center', inline: 'center' });
+            }
+        });
 
         console.log(clc.green('[Captcha] Checkbox is ready'));
         return { frame, checkbox };
@@ -566,6 +535,12 @@ async function solveCaptchaChallenge(page) {
         ]);
 
         if (!checkboxResult) {
+            // Take screenshot with timestamp
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            await page.screenshot({ 
+                path: `test_screenshots/captcha_error_${timestamp}.png`,
+                fullPage: true 
+            });
             console.log(clc.red('[Captcha] Neither token nor challenge appeared'));
             return null;
         }
@@ -728,8 +703,8 @@ async function solveCaptchaChallenge(page) {
         return null;
     }
 }
-
-async function generateCaptchaTokens({
+//TODO :don't make this run forever, isntead run in batche,s after that close all browsers, close puppeteer fully,  clear any user data folder
+ async function generateCaptchaTokens({
     eventEmitter,
     concurrentBrowsers = CONCURRENT_BROWSERS,
     tabsPerBrowser = TABS_PER_BROWSER,
@@ -738,7 +713,6 @@ async function generateCaptchaTokens({
     if (!eventEmitter) {
         throw new Error('eventEmitter is required');
     }
-
     console.log(clc.cyan('\n=== Starting Token Generation ==='));
     console.log(clc.white('Concurrent Browsers:'), clc.yellow(concurrentBrowsers));
     console.log(clc.white('Tabs per Browser:'), clc.yellow(tabsPerBrowser));
@@ -747,11 +721,102 @@ async function generateCaptchaTokens({
 
     const resultTracker = new ResultTracker();
     const activeBrowsers = new Set();
+    let totalAttempts = 0;  // Changed from totalTokensGenerated
+
+    // Add a flag to track if restart is in progress
+    let isRestartInProgress = false;
+
+    const performFullRestart = async () => {
+        if (isRestartInProgress) {
+            console.log(clc.yellow('[Debug] Restart already in progress, skipping...'));
+            return;
+        }
+        
+        isRestartInProgress = true;
+        console.log(clc.yellow(`\n[System] Made ${totalAttempts} attempts, initiating graceful shutdown...`));
+        
+        // Stop launching new browsers/operations
+        console.log(clc.cyan('[System] Waiting for current operations to complete...'));
+        
+        // Force cleanup any stuck browsers after timeout
+        const maxWaitTime = 30000; // 30 seconds
+        const startWait = Date.now();
+        
+        // Wait for active browsers to finish their current tasks
+        while (activeBrowsers.size > 0) {
+            console.log(clc.cyan(`[System] Waiting for ${activeBrowsers.size} browsers to finish...`));
+            
+            // Add timeout to prevent infinite waiting
+            if (Date.now() - startWait > maxWaitTime) {
+                console.log(clc.red('[System] Timeout waiting for browsers, forcing cleanup...'));
+                // Force close all remaining browsers
+                const closePromises = Array.from(activeBrowsers).map(browser => browser.cleanup());
+                await Promise.all(closePromises);
+                activeBrowsers.clear();
+                break;
+            }
+            
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+        
+        // Now perform the actual restart
+        console.log(clc.yellow('[System] All browsers finished, performing cleanup...'));
+        
+        // Clear user data directories
+        userDataDirs.clear();
+        
+        // Delete chrome user data folders
+        const userDataBasePath = './chrome-user-data';
+        try {
+            if (fs.existsSync(userDataBasePath)) {
+                console.log(clc.cyan('[System] Cleaning up Chrome user data...'));
+                fs.rmSync(userDataBasePath, { recursive: true, force: true });
+            }
+        } catch (error) {
+            console.error(clc.red('[System] Error cleaning up Chrome user data:', error.message));
+        }
+        
+        totalAttempts = 0;  // Reset attempts counter instead of tokens
+        console.log(clc.green('[System] Restart complete, continuing token generation'));
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        isRestartInProgress = false;
+    };
+
+    // Modify the shouldRestart function
+    const shouldRestart = async () => {
+        if (isRestartInProgress) return true;
+        if (totalAttempts >= MAX_ATTEMPTS_BEFORE_RESTART) {
+            console.log(clc.yellow(`[Debug] Restart needed at ${totalAttempts} attempts`));
+            performFullRestart().catch(error => {
+                console.error(clc.red('[System] Error during restart:', error));
+                isRestartInProgress = false;
+            });
+            return true;
+        }
+        return false;
+    };
 
     while (true) {
         try {
-            while (activeBrowsers.size < concurrentBrowsers) {
+            // Skip the browser spawning loop entirely if restart is in progress
+            if (isRestartInProgress) {
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                continue;
+            }
+
+            // Check if we need to restart
+            if (totalAttempts >= MAX_ATTEMPTS_BEFORE_RESTART) {
+                await performFullRestart();
+                continue;
+            }
+
+            while (activeBrowsers.size < concurrentBrowsers && !isRestartInProgress) {
                 try {
+                    console.log(clc.cyan(`[Debug] Active browsers: ${activeBrowsers.size}/${concurrentBrowsers}`));
+                    
+                    // Check again before launching a new browser
+                    if (await shouldRestart()) continue;
+
                     // Get a random available user data directory
                     let userDataDir;
                     let attempts = 0;
@@ -783,6 +848,9 @@ async function generateCaptchaTokens({
                             const page = pages[0];
                             
                             try {
+                                // Check before starting a new token generation
+                                if (await shouldRestart()) return;
+
                                 await page.goto(captchaUrl, {
                                     waitUntil: 'networkidle2',
                                     timeout: 120000
@@ -792,16 +860,35 @@ async function generateCaptchaTokens({
                                 
                                 if (token) {
                                     eventEmitter.emit('tokenGenerated', { token });
-                                    resultTracker.addResult({ success: true });
-                                    resultTracker.printStats();
+                                    
+                                    if (!isRestartInProgress) {
+                                        resultTracker.addResult({ success: true });
+                                        resultTracker.printStats();
+                                        totalAttempts++;  // Increment attempts regardless of success
+                                        console.log(clc.cyan(`[System] Total attempts: ${totalAttempts}/${MAX_ATTEMPTS_BEFORE_RESTART}`));
+                                        
+                                        // Trigger restart if needed
+                                        if (totalAttempts >= MAX_ATTEMPTS_BEFORE_RESTART && !isRestartInProgress) {
+                                            console.log(clc.red(`[Debug] Attempt threshold reached, triggering restart`));
+                                            performFullRestart().catch(error => {
+                                                console.error(clc.red('[System] Error during restart:', error));
+                                                isRestartInProgress = false;
+                                            });
+                                        }
+                                    } else {
+                                        console.log(clc.yellow('[Debug] Token emitted but stats skipped due to restart in progress'));
+                                        await new Promise(resolve => setTimeout(resolve, 2000));
+                                    }
                                 } else {
                                     resultTracker.addResult({ success: false });
+                                    totalAttempts++;  // Increment attempts on failure too
                                 }
 
                             } catch (error) {
                                 console.error(clc.red('\nError generating token:', error.message, '\n'));
                                 eventEmitter.emit('tokenError', { error: error.message });
                                 resultTracker.addResult({ success: false });
+                                totalAttempts++;  // Increment attempts on error too
                             }
 
                         } finally {
@@ -814,11 +901,10 @@ async function generateCaptchaTokens({
                     activeBrowsers.add(browser);
                     browserPromise.catch(error => {
                         console.error(clc.red('Error in browser:', error));
-                        browser.cleanup().catch(console.error); // Ensure cleanup happens on error
+                        browser.cleanup().catch(console.error);
                         activeBrowsers.delete(browser);
                     });
 
-                    // Increased delay between launching browsers
                     await new Promise(resolve => setTimeout(resolve, 2000));
                 } catch (error) {
                     console.error(clc.red('Error launching browser:', error.message));

@@ -1,0 +1,2045 @@
+=== Resource Monitoring Started 2024-12-05T19:50:21.376Z ===
+
+2024-12-05T19:50:21.409Z
+Memory Usage: 45.59% (14.27 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.66 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T19:50:51.418Z
+Memory Usage: 50.31% (15.75 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.33 MB/68.04 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T19:51:21.423Z
+Memory Usage: 50.12% (15.69 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.46 MB/41.75 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T19:51:51.427Z
+Memory Usage: 50.73% (15.88 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.83 MB/70.99 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T19:52:21.431Z
+Memory Usage: 50.25% (15.73 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.10 MB/71.54 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T19:52:51.442Z
+Memory Usage: 48.90% (15.30 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.41 MB/72.98 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T19:53:21.452Z
+Memory Usage: 49.67% (15.55 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.95 MB/72.74 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T19:53:51.455Z
+Memory Usage: 49.99% (15.64 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.09 MB/71.25 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T19:54:21.461Z
+Memory Usage: 49.64% (15.54 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 45.20 MB/72.45 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T19:54:51.465Z
+Memory Usage: 49.58% (15.52 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.83 MB/72.99 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T19:55:21.471Z
+Memory Usage: 49.19% (15.39 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.95 MB/72.99 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T19:55:51.474Z
+Memory Usage: 48.32% (15.12 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.24 MB/73.29 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T19:56:21.478Z
+Memory Usage: 48.32% (15.12 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.33 MB/71.49 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T19:56:51.478Z
+Memory Usage: 50.70% (15.87 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.28 MB/70.79 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T19:57:21.481Z
+Memory Usage: 48.70% (15.24 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.92 MB/50.54 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T19:57:51.488Z
+Memory Usage: 49.95% (15.63 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.46 MB/56.58 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T19:58:21.494Z
+Memory Usage: 48.92% (15.31 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.34 MB/71.53 MB
+Uptime: 8.01 minutes
+----------------------------------------
+
+2024-12-05T19:58:51.495Z
+Memory Usage: 49.63% (15.53 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.44 MB/71.83 MB
+Uptime: 8.51 minutes
+----------------------------------------
+
+2024-12-05T19:59:21.505Z
+Memory Usage: 50.58% (15.83 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.47 MB/70.33 MB
+Uptime: 9.01 minutes
+----------------------------------------
+
+2024-12-05T19:59:51.516Z
+Memory Usage: 51.07% (15.98 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.17 MB/74.75 MB
+Uptime: 9.51 minutes
+----------------------------------------
+
+2024-12-05T20:00:21.515Z
+Memory Usage: 49.94% (15.63 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.33 MB/71.79 MB
+Uptime: 10.01 minutes
+----------------------------------------
+
+2024-12-05T20:00:51.523Z
+Memory Usage: 49.98% (15.64 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.07 MB/73.49 MB
+Uptime: 10.51 minutes
+----------------------------------------
+
+2024-12-05T20:01:21.533Z
+Memory Usage: 49.50% (15.49 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.97 MB/72.33 MB
+Uptime: 11.01 minutes
+----------------------------------------
+
+2024-12-05T20:01:51.533Z
+Memory Usage: 47.11% (14.74 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.29 MB/72.91 MB
+Uptime: 11.51 minutes
+----------------------------------------
+
+2024-12-05T20:02:21.542Z
+Memory Usage: 48.65% (15.23 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.81 MB/36.33 MB
+Uptime: 12.01 minutes
+----------------------------------------
+
+2024-12-05T20:02:51.549Z
+Memory Usage: 49.87% (15.61 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 47.21 MB/69.74 MB
+Uptime: 12.51 minutes
+----------------------------------------
+
+2024-12-05T20:03:21.549Z
+Memory Usage: 50.92% (15.94 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.06 MB/72.54 MB
+Uptime: 13.01 minutes
+----------------------------------------
+
+2024-12-05T20:03:51.556Z
+Memory Usage: 48.54% (15.19 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.33 MB/73.74 MB
+Uptime: 13.51 minutes
+----------------------------------------
+
+2024-12-05T20:04:21.560Z
+Memory Usage: 48.14% (15.06 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.26 MB/72.25 MB
+Uptime: 14.01 minutes
+----------------------------------------
+
+2024-12-05T20:04:51.568Z
+Memory Usage: 50.70% (15.87 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.74 MB/72.24 MB
+Uptime: 14.51 minutes
+----------------------------------------
+
+2024-12-05T20:05:21.567Z
+Memory Usage: 49.49% (15.49 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.58 MB/73.79 MB
+Uptime: 15.01 minutes
+----------------------------------------
+
+2024-12-05T20:05:51.570Z
+Memory Usage: 48.89% (15.30 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.10 MB/51.54 MB
+Uptime: 15.51 minutes
+----------------------------------------
+
+2024-12-05T20:06:21.575Z
+Memory Usage: 50.89% (15.93 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.77 MB/72.04 MB
+Uptime: 16.01 minutes
+----------------------------------------
+
+2024-12-05T20:06:51.587Z
+Memory Usage: 49.96% (15.64 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.07 MB/72.25 MB
+Uptime: 16.51 minutes
+----------------------------------------
+
+2024-12-05T20:07:21.600Z
+Memory Usage: 48.88% (15.30 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 47.06 MB/59.71 MB
+Uptime: 17.01 minutes
+----------------------------------------
+
+2024-12-05T20:07:51.607Z
+Memory Usage: 47.13% (14.75 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.78 MB/52.08 MB
+Uptime: 17.51 minutes
+----------------------------------------
+
+2024-12-05T20:08:21.608Z
+Memory Usage: 50.77% (15.89 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.76 MB/71.25 MB
+Uptime: 18.01 minutes
+----------------------------------------
+
+2024-12-05T20:16:25.187Z
+Memory Usage: 46.28% (14.48 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.47 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:16:55.188Z
+Memory Usage: 50.26% (15.73 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.82 MB/67.74 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T20:18:44.336Z
+Memory Usage: 46.92% (14.68 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.65 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:19:14.338Z
+Memory Usage: 48.86% (15.29 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 45.73 MB/70.70 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T20:20:39.256Z
+Memory Usage: 45.77% (14.32 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.49 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:21:09.256Z
+Memory Usage: 47.86% (14.98 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.47 MB/67.95 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T20:28:25.363Z
+Memory Usage: 49.36% (15.45 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.49 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:28:55.365Z
+Memory Usage: 52.48% (16.42 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.42 MB/67.75 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T20:32:46.257Z
+Memory Usage: 48.28% (15.11 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.34 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:33:16.263Z
+Memory Usage: 48.19% (15.08 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.77 MB/66.24 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T20:46:31.855Z
+Memory Usage: 49.62% (15.53 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.35 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:47:22.085Z
+Memory Usage: 49.67% (15.54 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.70 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:48:17.341Z
+Memory Usage: 49.00% (15.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.48 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:50:35.965Z
+Memory Usage: 50.16% (15.70 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.46 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:53:30.948Z
+Memory Usage: 48.10% (15.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.65 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:54:06.094Z
+Memory Usage: 48.16% (15.07 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.54 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T20:54:44.730Z
+Memory Usage: 47.95% (15.01 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.66 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:00:30.096Z
+Memory Usage: 48.43% (15.16 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.35 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:01:05.203Z
+Memory Usage: 48.25% (15.10 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.49 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:01:41.322Z
+Memory Usage: 48.17% (15.08 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.62 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:02:05.017Z
+Memory Usage: 48.45% (15.16 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.52 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:04:20.396Z
+Memory Usage: 48.96% (15.32 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.53 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:05:20.819Z
+Memory Usage: 48.85% (15.29 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.50 MB/54.33 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:05:50.822Z
+Memory Usage: 53.72% (16.81 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.31 MB/65.79 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T21:06:20.835Z
+Memory Usage: 50.75% (15.88 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.40 MB/69.83 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T21:06:50.856Z
+Memory Usage: 53.03% (16.60 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.57 MB/71.45 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T21:07:20.853Z
+Memory Usage: 52.29% (16.36 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.89 MB/51.25 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T21:07:50.852Z
+Memory Usage: 53.59% (16.77 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.13 MB/72.04 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T21:08:20.853Z
+Memory Usage: 52.94% (16.57 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.08 MB/72.54 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T21:08:50.854Z
+Memory Usage: 53.68% (16.80 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.73 MB/72.74 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T21:09:20.854Z
+Memory Usage: 53.49% (16.74 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.60 MB/71.83 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T21:09:50.857Z
+Memory Usage: 51.81% (16.22 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.90 MB/71.79 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T21:10:20.862Z
+Memory Usage: 51.96% (16.26 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.26 MB/42.04 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T21:10:50.866Z
+Memory Usage: 53.99% (16.90 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.38 MB/69.54 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T21:11:20.871Z
+Memory Usage: 54.06% (16.92 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.59 MB/72.08 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T21:11:50.886Z
+Memory Usage: 55.47% (17.36 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.75 MB/72.48 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T21:12:20.892Z
+Memory Usage: 52.43% (16.41 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.37 MB/72.54 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T21:12:54.439Z
+Memory Usage: 50.54% (15.82 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.47 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:13:24.440Z
+Memory Usage: 53.44% (16.72 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.69 MB/66.74 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T21:13:54.443Z
+Memory Usage: 54.48% (17.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.24 MB/70.04 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T21:14:24.443Z
+Memory Usage: 53.73% (16.81 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.51 MB/67.58 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T21:14:54.444Z
+Memory Usage: 54.02% (16.91 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.08 MB/71.78 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T21:15:24.451Z
+Memory Usage: 57.04% (17.85 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.12 MB/72.58 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T21:15:54.459Z
+Memory Usage: 56.91% (17.81 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.04 MB/70.74 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T21:16:24.460Z
+Memory Usage: 56.54% (17.69 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.53 MB/71.29 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T21:16:54.471Z
+Memory Usage: 56.41% (17.65 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.60 MB/71.08 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T21:17:24.470Z
+Memory Usage: 55.83% (17.47 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.55 MB/71.54 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T21:17:54.470Z
+Memory Usage: 54.90% (17.18 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.03 MB/71.83 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T21:18:24.475Z
+Memory Usage: 54.64% (17.10 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.02 MB/71.83 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T21:18:54.480Z
+Memory Usage: 55.36% (17.32 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.92 MB/71.58 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T21:19:30.360Z
+Memory Usage: 51.72% (16.19 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.36 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:20:00.361Z
+Memory Usage: 54.53% (17.06 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.37 MB/72.58 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T21:20:30.367Z
+Memory Usage: 55.00% (17.21 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 100.85 MB/127.08 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T21:21:00.368Z
+Memory Usage: 54.92% (17.19 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.51 MB/75.58 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T21:21:30.369Z
+Memory Usage: 55.23% (17.28 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.81 MB/84.83 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T21:31:14.988Z
+Memory Usage: 48.92% (15.31 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.67 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:32:31.250Z
+Memory Usage: 50.35% (15.76 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.46 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:35:21.696Z
+Memory Usage: 49.05% (15.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.31 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:36:46.238Z
+Memory Usage: 50.04% (15.66 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.65 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:37:16.252Z
+Memory Usage: 53.24% (16.66 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 45.75 MB/66.75 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T21:37:46.254Z
+Memory Usage: 52.38% (16.39 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.22 MB/69.29 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T21:38:16.257Z
+Memory Usage: 52.22% (16.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.56 MB/69.99 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T21:38:46.268Z
+Memory Usage: 54.12% (16.94 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.25 MB/51.54 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T21:39:16.274Z
+Memory Usage: 49.68% (15.55 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.15 MB/72.04 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T21:39:46.278Z
+Memory Usage: 47.53% (14.87 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.34 MB/70.79 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T21:40:16.281Z
+Memory Usage: 48.29% (15.11 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.58 MB/70.08 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T21:40:46.283Z
+Memory Usage: 47.36% (14.82 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.23 MB/71.99 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T21:41:16.295Z
+Memory Usage: 46.51% (14.56 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.75 MB/71.20 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T21:41:46.296Z
+Memory Usage: 47.78% (14.95 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.81 MB/70.83 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T21:42:16.311Z
+Memory Usage: 49.21% (15.40 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.16 MB/72.24 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T21:42:46.325Z
+Memory Usage: 48.79% (15.27 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.61 MB/54.58 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T21:43:16.332Z
+Memory Usage: 48.33% (15.13 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.27 MB/66.58 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T21:43:46.332Z
+Memory Usage: 47.82% (14.96 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 29.43 MB/72.08 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T21:44:16.344Z
+Memory Usage: 48.13% (15.06 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.44 MB/71.08 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T21:44:46.356Z
+Memory Usage: 48.78% (15.27 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.96 MB/71.83 MB
+Uptime: 8.01 minutes
+----------------------------------------
+
+2024-12-05T21:45:16.360Z
+Memory Usage: 48.47% (15.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.13 MB/71.58 MB
+Uptime: 8.51 minutes
+----------------------------------------
+
+2024-12-05T21:45:46.373Z
+Memory Usage: 48.27% (15.11 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.97 MB/71.58 MB
+Uptime: 9.01 minutes
+----------------------------------------
+
+2024-12-05T21:46:16.373Z
+Memory Usage: 48.63% (15.22 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.60 MB/71.58 MB
+Uptime: 9.51 minutes
+----------------------------------------
+
+2024-12-05T21:46:46.373Z
+Memory Usage: 49.29% (15.43 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.42 MB/71.83 MB
+Uptime: 10.01 minutes
+----------------------------------------
+
+2024-12-05T21:47:16.372Z
+Memory Usage: 48.65% (15.22 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.38 MB/71.33 MB
+Uptime: 10.51 minutes
+----------------------------------------
+
+2024-12-05T21:47:46.378Z
+Memory Usage: 48.49% (15.18 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.99 MB/71.33 MB
+Uptime: 11.01 minutes
+----------------------------------------
+
+2024-12-05T21:48:16.377Z
+Memory Usage: 48.65% (15.23 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.54 MB/69.58 MB
+Uptime: 11.51 minutes
+----------------------------------------
+
+2024-12-05T21:52:48.142Z
+Memory Usage: 49.90% (15.62 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.61 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:53:08.518Z
+Memory Usage: 51.29% (16.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.57 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T21:53:38.528Z
+Memory Usage: 54.09% (16.93 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.48 MB/64.04 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T21:54:08.529Z
+Memory Usage: 53.07% (16.61 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.72 MB/70.04 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T21:54:38.530Z
+Memory Usage: 52.93% (16.56 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.17 MB/70.04 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T21:55:08.540Z
+Memory Usage: 52.71% (16.50 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.73 MB/71.74 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T21:55:38.545Z
+Memory Usage: 52.44% (16.41 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 45.63 MB/69.58 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T21:56:08.552Z
+Memory Usage: 53.28% (16.67 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.63 MB/70.58 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T21:56:38.561Z
+Memory Usage: 51.05% (15.98 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.33 MB/71.04 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T21:57:08.567Z
+Memory Usage: 52.40% (16.40 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 48.23 MB/71.08 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T21:57:38.569Z
+Memory Usage: 52.25% (16.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.00 MB/72.79 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T21:58:08.580Z
+Memory Usage: 53.26% (16.67 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.59 MB/72.79 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T21:58:38.591Z
+Memory Usage: 50.74% (15.88 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.28 MB/73.04 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T21:59:08.592Z
+Memory Usage: 53.43% (16.72 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.93 MB/73.74 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T21:59:38.597Z
+Memory Usage: 49.92% (15.62 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.75 MB/68.04 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T22:00:08.609Z
+Memory Usage: 52.62% (16.47 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.91 MB/71.29 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T22:00:38.615Z
+Memory Usage: 52.65% (16.48 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.20 MB/71.08 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T22:01:08.614Z
+Memory Usage: 53.37% (16.70 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.03 MB/71.79 MB
+Uptime: 8.01 minutes
+----------------------------------------
+
+2024-12-05T22:01:38.634Z
+Memory Usage: 53.74% (16.82 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.92 MB/71.99 MB
+Uptime: 8.51 minutes
+----------------------------------------
+
+2024-12-05T22:02:08.624Z
+Memory Usage: 55.43% (17.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.04 MB/72.24 MB
+Uptime: 9.01 minutes
+----------------------------------------
+
+2024-12-05T22:02:38.629Z
+Memory Usage: 55.68% (17.42 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.07 MB/72.54 MB
+Uptime: 9.51 minutes
+----------------------------------------
+
+2024-12-05T22:03:08.635Z
+Memory Usage: 54.88% (17.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.98 MB/51.08 MB
+Uptime: 10.01 minutes
+----------------------------------------
+
+2024-12-05T22:03:38.637Z
+Memory Usage: 53.23% (16.66 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.88 MB/70.99 MB
+Uptime: 10.51 minutes
+----------------------------------------
+
+2024-12-05T22:04:08.640Z
+Memory Usage: 54.45% (17.04 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.06 MB/72.79 MB
+Uptime: 11.01 minutes
+----------------------------------------
+
+2024-12-05T22:04:38.645Z
+Memory Usage: 53.45% (16.73 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.39 MB/74.24 MB
+Uptime: 11.51 minutes
+----------------------------------------
+
+2024-12-05T22:06:14.772Z
+Memory Usage: 50.81% (15.90 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.62 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T22:06:44.783Z
+Memory Usage: 54.42% (17.03 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.53 MB/68.99 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T22:07:14.782Z
+Memory Usage: 53.34% (16.69 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 29.55 MB/34.33 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T22:07:44.787Z
+Memory Usage: 52.91% (16.56 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.36 MB/69.58 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T22:08:14.789Z
+Memory Usage: 53.37% (16.70 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.62 MB/69.58 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T22:08:44.800Z
+Memory Usage: 52.74% (16.51 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.06 MB/70.54 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T22:09:14.800Z
+Memory Usage: 52.94% (16.57 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 29.16 MB/70.54 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T22:09:44.811Z
+Memory Usage: 53.40% (16.71 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.21 MB/50.28 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T22:10:14.812Z
+Memory Usage: 55.07% (17.24 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.83 MB/70.33 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T22:10:44.818Z
+Memory Usage: 52.03% (16.28 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.30 MB/70.79 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T22:11:14.819Z
+Memory Usage: 52.91% (16.56 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.57 MB/71.08 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T22:11:44.824Z
+Memory Usage: 52.89% (16.55 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.58 MB/72.54 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T22:12:14.825Z
+Memory Usage: 55.00% (17.21 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.86 MB/72.53 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T22:12:44.832Z
+Memory Usage: 52.28% (16.36 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.42 MB/71.95 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T22:13:14.834Z
+Memory Usage: 52.23% (16.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.63 MB/67.99 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T22:13:44.848Z
+Memory Usage: 53.03% (16.60 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.64 MB/71.70 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T22:14:16.389Z
+Memory Usage: 50.36% (15.76 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.53 MB/43.45 MB
+Uptime: 8.04 minutes
+----------------------------------------
+
+2024-12-05T22:14:46.389Z
+Memory Usage: 54.39% (17.02 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.95 MB/71.49 MB
+Uptime: 8.54 minutes
+----------------------------------------
+
+2024-12-05T22:18:41.817Z
+Memory Usage: 46.31% (14.49 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.52 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T22:19:11.820Z
+Memory Usage: 52.59% (16.46 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.12 MB/64.50 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T22:19:41.825Z
+Memory Usage: 52.46% (16.42 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.27 MB/66.24 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T22:20:11.832Z
+Memory Usage: 50.83% (15.91 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.79 MB/68.79 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T22:20:41.831Z
+Memory Usage: 50.80% (15.90 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.20 MB/71.54 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T22:21:11.838Z
+Memory Usage: 49.99% (15.64 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.89 MB/68.29 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T22:22:02.532Z
+Memory Usage: 47.14% (14.75 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.63 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T22:22:32.534Z
+Memory Usage: 48.85% (15.29 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.89 MB/65.04 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T22:23:02.537Z
+Memory Usage: 50.75% (15.88 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.41 MB/68.04 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T22:23:32.546Z
+Memory Usage: 51.74% (16.19 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.16 MB/67.53 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T22:24:02.545Z
+Memory Usage: 49.34% (15.44 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 46.50 MB/69.46 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T22:24:32.557Z
+Memory Usage: 51.54% (16.13 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.84 MB/68.83 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T22:25:02.557Z
+Memory Usage: 51.53% (16.13 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.61 MB/70.79 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T22:25:32.557Z
+Memory Usage: 51.37% (16.08 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.95 MB/71.54 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T22:26:02.562Z
+Memory Usage: 50.41% (15.78 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.17 MB/71.99 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T22:26:32.563Z
+Memory Usage: 51.04% (15.97 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.29 MB/72.49 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T22:27:02.565Z
+Memory Usage: 51.67% (16.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.54 MB/69.29 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T22:27:32.566Z
+Memory Usage: 51.42% (16.09 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.26 MB/71.29 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T22:28:02.572Z
+Memory Usage: 50.01% (15.65 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.90 MB/71.49 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T22:28:32.578Z
+Memory Usage: 52.24% (16.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.51 MB/44.24 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T22:29:02.586Z
+Memory Usage: 52.20% (16.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.86 MB/45.99 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T22:29:32.598Z
+Memory Usage: 51.90% (16.24 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.95 MB/69.49 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T22:30:02.612Z
+Memory Usage: 51.67% (16.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.11 MB/72.70 MB
+Uptime: 8.01 minutes
+----------------------------------------
+
+2024-12-05T22:30:32.612Z
+Memory Usage: 51.56% (16.14 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.20 MB/72.78 MB
+Uptime: 8.51 minutes
+----------------------------------------
+
+2024-12-05T22:31:02.620Z
+Memory Usage: 49.65% (15.54 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.55 MB/71.99 MB
+Uptime: 9.01 minutes
+----------------------------------------
+
+2024-12-05T22:31:32.633Z
+Memory Usage: 50.57% (15.82 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.98 MB/72.49 MB
+Uptime: 9.51 minutes
+----------------------------------------
+
+2024-12-05T22:32:04.196Z
+Memory Usage: 47.69% (14.92 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 55.97 MB/76.62 MB
+Uptime: 10.04 minutes
+----------------------------------------
+
+2024-12-05T22:32:34.209Z
+Memory Usage: 51.22% (16.03 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.46 MB/72.08 MB
+Uptime: 10.54 minutes
+----------------------------------------
+
+2024-12-05T22:33:04.207Z
+Memory Usage: 49.44% (15.47 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 45.33 MB/73.18 MB
+Uptime: 11.04 minutes
+----------------------------------------
+
+2024-12-05T22:33:34.208Z
+Memory Usage: 51.00% (15.96 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.34 MB/74.70 MB
+Uptime: 11.54 minutes
+----------------------------------------
+
+2024-12-05T22:34:04.208Z
+Memory Usage: 51.29% (16.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.87 MB/69.03 MB
+Uptime: 12.04 minutes
+----------------------------------------
+
+2024-12-05T22:34:34.208Z
+Memory Usage: 51.86% (16.23 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.39 MB/71.54 MB
+Uptime: 12.54 minutes
+----------------------------------------
+
+2024-12-05T22:35:04.217Z
+Memory Usage: 49.07% (15.36 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.83 MB/73.74 MB
+Uptime: 13.04 minutes
+----------------------------------------
+
+2024-12-05T22:35:34.225Z
+Memory Usage: 50.16% (15.70 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.42 MB/72.58 MB
+Uptime: 13.54 minutes
+----------------------------------------
+
+2024-12-05T22:36:04.226Z
+Memory Usage: 50.98% (15.95 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.50 MB/72.54 MB
+Uptime: 14.04 minutes
+----------------------------------------
+
+2024-12-05T22:36:34.241Z
+Memory Usage: 52.22% (16.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.09 MB/72.83 MB
+Uptime: 14.54 minutes
+----------------------------------------
+
+2024-12-05T22:37:04.242Z
+Memory Usage: 50.75% (15.88 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.05 MB/70.33 MB
+Uptime: 15.04 minutes
+----------------------------------------
+
+2024-12-05T22:37:34.248Z
+Memory Usage: 50.47% (15.79 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 47.59 MB/69.16 MB
+Uptime: 15.54 minutes
+----------------------------------------
+
+2024-12-05T22:38:04.250Z
+Memory Usage: 49.63% (15.53 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.03 MB/50.03 MB
+Uptime: 16.04 minutes
+----------------------------------------
+
+2024-12-05T22:38:34.254Z
+Memory Usage: 50.82% (15.90 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.31 MB/71.33 MB
+Uptime: 16.54 minutes
+----------------------------------------
+
+2024-12-05T22:39:04.261Z
+Memory Usage: 51.63% (16.16 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.96 MB/73.29 MB
+Uptime: 17.04 minutes
+----------------------------------------
+
+2024-12-05T22:39:34.269Z
+Memory Usage: 51.29% (16.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.36 MB/73.54 MB
+Uptime: 17.54 minutes
+----------------------------------------
+
+2024-12-05T22:40:04.274Z
+Memory Usage: 51.73% (16.19 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.46 MB/75.03 MB
+Uptime: 18.04 minutes
+----------------------------------------
+
+2024-12-05T22:40:36.494Z
+Memory Usage: 47.40% (14.83 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.26 MB/35.54 MB
+Uptime: 18.58 minutes
+----------------------------------------
+
+2024-12-05T22:41:06.494Z
+Memory Usage: 50.71% (15.87 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.37 MB/70.54 MB
+Uptime: 19.08 minutes
+----------------------------------------
+
+2024-12-05T22:41:36.502Z
+Memory Usage: 50.18% (15.70 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.75 MB/72.99 MB
+Uptime: 19.58 minutes
+----------------------------------------
+
+2024-12-05T22:42:06.502Z
+Memory Usage: 51.13% (16.00 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 47.56 MB/72.58 MB
+Uptime: 20.08 minutes
+----------------------------------------
+
+2024-12-05T22:42:36.502Z
+Memory Usage: 50.12% (15.68 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.01 MB/73.53 MB
+Uptime: 20.58 minutes
+----------------------------------------
+
+2024-12-05T22:43:06.510Z
+Memory Usage: 51.77% (16.20 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.57 MB/70.74 MB
+Uptime: 21.08 minutes
+----------------------------------------
+
+2024-12-05T22:43:36.511Z
+Memory Usage: 52.22% (16.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.41 MB/51.08 MB
+Uptime: 21.58 minutes
+----------------------------------------
+
+2024-12-05T22:44:06.526Z
+Memory Usage: 51.81% (16.21 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.53 MB/71.49 MB
+Uptime: 22.08 minutes
+----------------------------------------
+
+2024-12-05T22:44:36.800Z
+Memory Usage: 48.10% (15.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.51 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T22:45:06.804Z
+Memory Usage: 52.21% (16.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.45 MB/69.29 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T22:45:36.810Z
+Memory Usage: 52.19% (16.33 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.33 MB/70.99 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T22:46:06.818Z
+Memory Usage: 56.26% (17.61 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.34 MB/67.29 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T22:46:49.175Z
+Memory Usage: 52.24% (16.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.62 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T22:46:57.311Z
+Memory Usage: 52.32% (16.37 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.54 MB/54.83 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T22:47:27.312Z
+Memory Usage: 56.56% (17.70 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.91 MB/67.54 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T22:47:57.314Z
+Memory Usage: 57.98% (18.15 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.60 MB/70.49 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T22:48:27.329Z
+Memory Usage: 56.65% (17.73 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.84 MB/61.08 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T22:48:57.342Z
+Memory Usage: 58.21% (18.22 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.18 MB/70.28 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T22:49:27.346Z
+Memory Usage: 56.28% (17.61 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.93 MB/69.28 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T22:49:57.358Z
+Memory Usage: 57.10% (17.87 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.68 MB/70.28 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T22:50:27.354Z
+Memory Usage: 57.19% (17.90 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.82 MB/70.79 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T22:50:57.354Z
+Memory Usage: 57.87% (18.11 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.70 MB/71.29 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T22:51:27.363Z
+Memory Usage: 55.94% (17.51 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.57 MB/73.18 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T22:51:57.368Z
+Memory Usage: 57.11% (17.87 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.90 MB/72.99 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T22:52:27.372Z
+Memory Usage: 58.46% (18.30 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.49 MB/35.54 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T22:52:57.373Z
+Memory Usage: 56.66% (17.73 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.77 MB/70.54 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T22:53:27.381Z
+Memory Usage: 55.39% (17.33 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.96 MB/71.25 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T22:53:57.395Z
+Memory Usage: 56.29% (17.62 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.81 MB/72.03 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T22:54:27.405Z
+Memory Usage: 56.48% (17.68 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.84 MB/71.58 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T22:54:57.407Z
+Memory Usage: 55.78% (17.46 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 41.03 MB/70.83 MB
+Uptime: 8.01 minutes
+----------------------------------------
+
+2024-12-05T22:55:27.413Z
+Memory Usage: 55.99% (17.52 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 47.96 MB/71.08 MB
+Uptime: 8.51 minutes
+----------------------------------------
+
+2024-12-05T22:55:57.418Z
+Memory Usage: 54.92% (17.19 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.27 MB/50.83 MB
+Uptime: 9.01 minutes
+----------------------------------------
+
+2024-12-05T22:56:27.420Z
+Memory Usage: 56.04% (17.54 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.91 MB/40.08 MB
+Uptime: 9.51 minutes
+----------------------------------------
+
+2024-12-05T22:56:57.431Z
+Memory Usage: 56.85% (17.79 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.93 MB/71.99 MB
+Uptime: 10.01 minutes
+----------------------------------------
+
+2024-12-05T22:57:27.441Z
+Memory Usage: 54.28% (16.99 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.94 MB/72.78 MB
+Uptime: 10.51 minutes
+----------------------------------------
+
+2024-12-05T22:57:57.449Z
+Memory Usage: 54.88% (17.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.09 MB/42.78 MB
+Uptime: 11.01 minutes
+----------------------------------------
+
+2024-12-05T22:58:27.449Z
+Memory Usage: 55.30% (17.31 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.29 MB/72.29 MB
+Uptime: 11.51 minutes
+----------------------------------------
+
+2024-12-05T22:58:57.455Z
+Memory Usage: 55.60% (17.40 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.27 MB/70.91 MB
+Uptime: 12.01 minutes
+----------------------------------------
+
+2024-12-05T22:59:27.462Z
+Memory Usage: 55.05% (17.23 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.60 MB/72.24 MB
+Uptime: 12.51 minutes
+----------------------------------------
+
+2024-12-05T22:59:57.463Z
+Memory Usage: 55.82% (17.47 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.47 MB/72.99 MB
+Uptime: 13.01 minutes
+----------------------------------------
+
+2024-12-05T23:00:27.465Z
+Memory Usage: 57.41% (17.97 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.55 MB/72.28 MB
+Uptime: 13.51 minutes
+----------------------------------------
+
+2024-12-05T23:00:57.468Z
+Memory Usage: 57.66% (18.04 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.51 MB/71.58 MB
+Uptime: 14.01 minutes
+----------------------------------------
+
+2024-12-05T23:01:27.482Z
+Memory Usage: 55.42% (17.34 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.02 MB/55.58 MB
+Uptime: 14.51 minutes
+----------------------------------------
+
+2024-12-05T23:01:57.487Z
+Memory Usage: 57.74% (18.07 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 33.36 MB/55.58 MB
+Uptime: 15.01 minutes
+----------------------------------------
+
+2024-12-05T23:02:27.496Z
+Memory Usage: 57.60% (18.03 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 36.05 MB/41.83 MB
+Uptime: 15.51 minutes
+----------------------------------------
+
+2024-12-05T23:02:57.496Z
+Memory Usage: 58.43% (18.28 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.05 MB/49.33 MB
+Uptime: 16.01 minutes
+----------------------------------------
+
+2024-12-05T23:03:27.498Z
+Memory Usage: 57.85% (18.11 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.79 MB/72.04 MB
+Uptime: 16.51 minutes
+----------------------------------------
+
+2024-12-05T23:03:57.498Z
+Memory Usage: 57.86% (18.11 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.16 MB/72.45 MB
+Uptime: 17.01 minutes
+----------------------------------------
+
+2024-12-05T23:04:27.500Z
+Memory Usage: 57.69% (18.06 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.93 MB/72.29 MB
+Uptime: 17.51 minutes
+----------------------------------------
+
+2024-12-05T23:04:57.502Z
+Memory Usage: 57.54% (18.01 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.86 MB/73.49 MB
+Uptime: 18.01 minutes
+----------------------------------------
+
+2024-12-05T23:05:27.508Z
+Memory Usage: 57.39% (17.96 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.64 MB/73.99 MB
+Uptime: 18.51 minutes
+----------------------------------------
+
+2024-12-05T23:09:09.532Z
+Memory Usage: 53.18% (16.64 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.30 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:09:28.304Z
+Memory Usage: 53.19% (16.65 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.47 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:09:58.308Z
+Memory Usage: 58.07% (18.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 32.34 MB/65.29 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T23:10:28.313Z
+Memory Usage: 57.29% (17.93 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.57 MB/49.04 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T23:10:58.319Z
+Memory Usage: 56.97% (17.83 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.61 MB/69.79 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T23:11:28.320Z
+Memory Usage: 57.85% (18.10 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.59 MB/72.99 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T23:11:58.326Z
+Memory Usage: 58.97% (18.46 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 29.28 MB/66.83 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T23:12:28.334Z
+Memory Usage: 57.67% (18.05 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.09 MB/68.83 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T23:12:58.336Z
+Memory Usage: 56.52% (17.69 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.94 MB/69.33 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T23:13:28.339Z
+Memory Usage: 58.37% (18.27 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.35 MB/70.54 MB
+Uptime: 4.01 minutes
+----------------------------------------
+
+2024-12-05T23:13:58.345Z
+Memory Usage: 58.07% (18.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 42.75 MB/73.24 MB
+Uptime: 4.51 minutes
+----------------------------------------
+
+2024-12-05T23:14:28.346Z
+Memory Usage: 58.58% (18.33 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.05 MB/73.24 MB
+Uptime: 5.01 minutes
+----------------------------------------
+
+2024-12-05T23:14:58.351Z
+Memory Usage: 58.54% (18.32 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.61 MB/72.54 MB
+Uptime: 5.51 minutes
+----------------------------------------
+
+2024-12-05T23:15:28.360Z
+Memory Usage: 57.22% (17.91 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 45.85 MB/78.29 MB
+Uptime: 6.01 minutes
+----------------------------------------
+
+2024-12-05T23:15:58.364Z
+Memory Usage: 58.76% (18.39 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.47 MB/69.54 MB
+Uptime: 6.51 minutes
+----------------------------------------
+
+2024-12-05T23:16:28.364Z
+Memory Usage: 58.80% (18.40 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.92 MB/71.33 MB
+Uptime: 7.01 minutes
+----------------------------------------
+
+2024-12-05T23:16:58.379Z
+Memory Usage: 56.96% (17.83 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.47 MB/71.33 MB
+Uptime: 7.51 minutes
+----------------------------------------
+
+2024-12-05T23:17:28.382Z
+Memory Usage: 57.42% (17.97 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.78 MB/43.83 MB
+Uptime: 8.01 minutes
+----------------------------------------
+
+2024-12-05T23:17:58.392Z
+Memory Usage: 56.23% (17.60 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 43.52 MB/52.08 MB
+Uptime: 8.51 minutes
+----------------------------------------
+
+2024-12-05T23:18:28.398Z
+Memory Usage: 56.92% (17.81 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.45 MB/71.83 MB
+Uptime: 9.01 minutes
+----------------------------------------
+
+2024-12-05T23:18:58.398Z
+Memory Usage: 57.95% (18.14 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 44.32 MB/67.54 MB
+Uptime: 9.51 minutes
+----------------------------------------
+
+2024-12-05T23:25:08.774Z
+Memory Usage: 48.44% (15.16 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.48 MB/55.08 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:25:25.761Z
+Memory Usage: 49.05% (15.35 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 27.74 MB/55.33 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:25:55.771Z
+Memory Usage: 51.68% (16.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 31.97 MB/66.58 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T23:26:25.769Z
+Memory Usage: 54.51% (17.06 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 40.62 MB/70.50 MB
+Uptime: 1.01 minutes
+----------------------------------------
+
+2024-12-05T23:26:55.773Z
+Memory Usage: 52.27% (16.36 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 39.32 MB/69.00 MB
+Uptime: 1.51 minutes
+----------------------------------------
+
+2024-12-05T23:27:25.773Z
+Memory Usage: 54.89% (17.18 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.16 MB/70.79 MB
+Uptime: 2.01 minutes
+----------------------------------------
+
+2024-12-05T23:27:55.774Z
+Memory Usage: 52.98% (16.58 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 50.07 MB/78.63 MB
+Uptime: 2.51 minutes
+----------------------------------------
+
+2024-12-05T23:28:25.773Z
+Memory Usage: 53.56% (16.76 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 37.38 MB/71.75 MB
+Uptime: 3.01 minutes
+----------------------------------------
+
+2024-12-05T23:28:55.780Z
+Memory Usage: 53.38% (16.71 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.30 MB/72.04 MB
+Uptime: 3.51 minutes
+----------------------------------------
+
+2024-12-05T23:29:15.353Z
+Memory Usage: 50.22% (15.72 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.52 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:29:35.362Z
+Memory Usage: 50.23% (15.72 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.49 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:30:05.363Z
+Memory Usage: 54.59% (17.08 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 34.67 MB/66.83 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T23:39:37.883Z
+Memory Usage: 53.39% (16.71 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 30.87 MB/54.58 MB
+Uptime: 0.01 minutes
+----------------------------------------
+
+2024-12-05T23:40:07.884Z
+Memory Usage: 58.27% (18.24 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 35.33 MB/68.29 MB
+Uptime: 0.51 minutes
+----------------------------------------
+
+2024-12-05T23:40:37.897Z
+Memory Usage: 58.05% (18.17 GB/31.30 GB)
+CPU Usage: 0.00%
+Process Heap: 38.45 MB/49.54 MB
+Uptime: 1.01 minutes
+----------------------------------------

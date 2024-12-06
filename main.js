@@ -9,6 +9,7 @@ const clc = require('cli-color');
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
 const rimraf = require('rimraf');
+const SystemMonitor = require('./SystemMonitor');
 
 dotenv.config();
 
@@ -320,40 +321,11 @@ function generateNextPermitNumber(currentPermit) {
     };
 }
 
-async function runTokenGeneration(options) {
-    let isRunning = true;
-    
-    while (isRunning) {
-        console.log(clc.yellow('[Token] Starting new token generation cycle...'));
-        try {
-            // Run for 30 minutes then restart
-            await Promise.race([
-                generateCaptchaTokens(options),
-                new Promise(resolve => setTimeout(resolve, 30 * 60 * 1000))
-            ]);
-        } catch (error) {
-            console.error(clc.red('[Token] Error in token generation:'), error);
-        }
-
-        // Clean up Chrome user data folder
-        try {
-            await new Promise((resolve, reject) => {
-                rimraf('chrome-user-data', (err) => {
-                    if (err) reject(err);
-                    else resolve();
-                });
-            });
-            console.log(clc.green('[Token] Cleaned up Chrome user data'));
-        } catch (error) {
-            console.error(clc.red('[Token] Error cleaning Chrome user data:'), error);
-        }
-
-        console.log(clc.yellow('[Token] Restarting token generation cycle...'));
-    }
-}
-
-// Main execution
 async function main() {
+    const systemMonitor = new SystemMonitor();
+    systemMonitor.startIPLogging();      // Start IP logging
+    systemMonitor.startResourceLogging(); // Start resource logging
+    
     const eventEmitter = new EventEmitter();
     const resultTracker = new ResultTracker();
     
@@ -362,6 +334,7 @@ async function main() {
     console.log(clc.green('[DB] Database initialized'));
 
     let initialTestDone = false;
+    let initialTestPromise = null;
 
     // Get the last checked permit number
     let currentPermitNumber = await database.getLastCheckedPermitNumber();
@@ -370,53 +343,62 @@ async function main() {
     // Create a promise that never resolves to keep the program running
     const keepAlive = new Promise(() => {});
 
-    // Start token generation (don't await it)
-    runTokenGeneration({
+    // Start token generation directly (don't await it)
+    generateCaptchaTokens({
         eventEmitter,
         concurrentBrowsers: 5,
         tabsPerBrowser: 1,
         captchaUrl: 'https://cpaquebec.ca/en/find-a-cpa/orders-membership-roll/'
+    }).catch(error => {
+        console.error(clc.red('[Token] Error in token generation:'), error);
     });
 
     eventEmitter.on('tokenGenerated', async ({ token }) => {
         try {
             // First, do a test with a known valid CPA ID
             if (!initialTestDone) {
-                console.log(clc.yellow('\n[CPA] Performing initial test with known valid CPA ID: A145869'));
-                try {
-                    const testUrl = await searchCPA({ 
-                        permitNumber: 'A145869',
-                        captchaToken: token 
-                    });
-                    console.log(clc.green('[CPA] Initial test successful! API is working correctly :'+ testUrl));
-                    initialTestDone = true;
-                    // Continue with the next permit number
-                    return;
-                } catch (error) {
-                    console.error(clc.red('[CPA] Initial test failed! Please check the API functionality:'), error.message);
-                    process.exit(1); // Exit if the test fails
+                // If a test is already in progress, wait for it
+                if (initialTestPromise) {
+                    await initialTestPromise;
+                } else {
+                    // Start the initial test and store the promise
+                    initialTestPromise = (async () => {
+                        console.log(clc.yellow('\n[CPA] Performing initial test with known valid CPA ID: A145869'));
+                        try {
+                            const testUrl = await searchCPA({ 
+                                permitNumber: 'A145869',
+                                captchaToken: token 
+                            });
+                            console.log(clc.green('[CPA] Initial test successful! API is working correctly :'+ testUrl));
+                            initialTestDone = true;
+                        } catch (error) {
+                            console.error(clc.red('[CPA] Initial test failed! Please check the API functionality:'), error.message);
+                            process.exit(1);
+                        }
+                    })();
+                    await initialTestPromise;
+                    return; // Only return if we used the token for the test
                 }
             }
 
-            // Regular processing continues here
             const nextPermit = generateNextPermitNumber(currentPermitNumber);
-            
             if (!nextPermit) {
                 console.log(clc.green('[CPA] Completed scanning all permit numbers!'));
                 process.exit(0);
             }
 
-            currentPermitNumber = nextPermit.permitId;
-            resultTracker.setCurrentPermit(nextPermit.numericPart);
-            resultTracker.setCurrentWorkingNumber(currentPermitNumber);
-            resultTracker.startTracking();
-            
-            console.log(clc.yellow(`\n[CPA] Processing permit number: ${currentPermitNumber}...`));
+            // Capture the permit number locally for this request
+            const permitToProcess = nextPermit.permitId;
+            currentPermitNumber = permitToProcess; // Update the global tracker
 
+            resultTracker.setCurrentPermit(nextPermit.numericPart);
+            resultTracker.setCurrentWorkingNumber(permitToProcess);
+            
+            console.log(clc.yellow(`\n[CPA] Processing permit number: ${permitToProcess}...`));
             
             try {
                 const url = await searchCPA({ 
-                    permitNumber: currentPermitNumber,
+                    permitNumber: permitToProcess,  // Use the local variable
                     captchaToken: token 
                 });
                 
@@ -424,7 +406,6 @@ async function main() {
                 
                 const cpaDetails = await getCPADetails(url);
                 await database.saveCPA(cpaDetails, url);
-
                 
                 console.log(clc.green('[CPA] Successfully retrieved CPA details:'));
                 console.log(cpaDetails);
@@ -432,13 +413,13 @@ async function main() {
                 resultTracker.recordSuccess();
             } catch (error) {
                 if (error.message === 'NO_CPA_FOUND') {
-                    console.log(clc.yellow(`[CPA] No active CPA found for permit number ${currentPermitNumber}`));
+                    console.log(clc.yellow(`[CPA] No active CPA found for permit number ${permitToProcess}`));
                 } else {
-                    console.error(clc.red(`[CPA] Error processing ${currentPermitNumber}:`, error.message));
+                    console.error(clc.red(`[CPA] Error processing ${permitToProcess}:`, error.message));
                 }
                 resultTracker.recordFailure();
             } finally {
-                await database.updateLastCheckedPermitNumber(currentPermitNumber);
+                await database.updateLastCheckedPermitNumber(permitToProcess);
             }
         } catch (error) {
             console.error(clc.red('Fatal error:', error.message));
@@ -448,7 +429,7 @@ async function main() {
     // Wait indefinitely
     await keepAlive;
 
-    return { database };
+    return { database }; // Only return database
 }
 
 // Update the cleanup to handle interrupts
